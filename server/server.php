@@ -9,7 +9,7 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 require(__DIR__ . '/lib/SplClassLoader.php');
-
+date_default_timezone_set('America/New_York');
 $classLoader = new SplClassLoader('WebSocket', __DIR__ . '/lib');
 $classLoader->register();
 
