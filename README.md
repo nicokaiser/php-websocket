@@ -36,7 +36,7 @@ This creates a server on 127.0.0.1:8000 with one Application that listens on
 
 ```php
 // $interface, $port, $ssl
-$server = new \WebSocket\Server(127.0.0.1', 8000, false);
+$server = new \WebSocket\Server('127.0.0.1', 8000, false);
 
 // Origin checking is supported
 $server->setCheckOrigin(true);
