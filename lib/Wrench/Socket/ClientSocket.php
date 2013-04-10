@@ -2,6 +2,7 @@
 namespace Wrench\Socket;
 
 use Wrench\Socket\UriSocket;
+use Wrench\Exception\ConnectionException;
 
 /**
  * Options:
